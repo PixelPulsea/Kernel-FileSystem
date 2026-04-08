@@ -13,11 +13,10 @@
     {
       devShells.${system}.default = pkgs.mkShell {
         packages = [ 
-          pkgs.fastfetch 
+          pkgs.ufetch 
           pkgs.nasm
 		  pkgs.gcc
 		  pkgs.binutils
-		  pkgs.qemu
         ];
       };
     };
