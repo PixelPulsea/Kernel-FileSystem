@@ -1,6 +1,6 @@
 #define whitecol 0x07
 
-extern "C" {
+extern "C"{
 	void kernel_main() {
 		const char* message = "hi";
 		unsigned short* vgabuf = (unsigned short*)0xB8000;
